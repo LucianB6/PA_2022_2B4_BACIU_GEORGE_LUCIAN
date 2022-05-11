@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="423d91d2-5477-4c7a-a6bd-8b9ce3f2ae57" name="Changes" comment="iss">
-      <change beforePath="$PROJECT_DIR$/../Tema10/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema10/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema10/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema10/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema10/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema10/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema10/src/main/java/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tema10/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tema10/src/main/java/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Server.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,6 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Tema10AnotherTry" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -54,7 +56,6 @@
       <option name="presentableId" value="Default" />
       <updated>1652254223781</updated>
       <workItem from="1652254225562" duration="459000" />
-      <workItem from="1652255698927" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="iss">
       <created>1652254331155</created>
