@@ -17,19 +17,23 @@ public class Controller {
         products.add(new Product(1, "Mask"));
         products.add(new Product(2, "Gloves"));
     }
+
     @GetMapping
     public List<Product> getProducts() {
         return products;
     }
+
     @GetMapping("/count")
     public int countProducts() {
         return products.size();
     }
+
     @GetMapping("/{id}")
     public Product getProduct(@PathVariable("id") int id) {
         return products.stream()
                 .filter(p -> p.getId() == id).findFirst().orElse(null);
     }
+
     @PostMapping
     public int createProduct(@RequestParam String name) {
         int id = 1 + products.size();
@@ -37,13 +41,14 @@ public class Controller {
         return id;
     }
 
-    @PostMapping(value = "/obj", consumes="application/json")
+    @PostMapping(value = "/obj", consumes = "application/json")
     public ResponseEntity<String>
     createProduct(@RequestBody Product product) {
         products.add(product);
         return new ResponseEntity<>(
                 "Product created successfully", HttpStatus.CREATED);
     }
+
     @PutMapping("/{id}")
     public ResponseEntity<String> updateProduct(
             @PathVariable int id, @RequestParam String name) {
@@ -58,6 +63,7 @@ public class Controller {
         return new ResponseEntity<>(
                 "Product updated successsfully", HttpStatus.OK);
     }
+
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<String> deleteProduct(@PathVariable int id) {
         Product product = findById(id);
@@ -69,9 +75,7 @@ public class Controller {
         return new ResponseEntity<>("Product removed", HttpStatus.OK);
     }
 
-
     private Product findById(int id) {
         return findById(id);
     }
-
 }
